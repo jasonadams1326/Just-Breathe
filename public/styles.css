@@ -1,0 +1,353 @@
+.overall-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  /* dark mode colors for later: */
+  /* background-color: #202124; */
+  /* background-color: #bdc1c6; */
+  background-color: white;
+}
+
+.off-header{
+  background-color: white;
+  color: black;
+}
+
+.offcanvas-body{
+  font-size: x-large;
+  background-color: white;
+  color: black;
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .offcanvas-body{
+    font-size: xx-large;
+  }
+}
+
+.offcanvas-description-container{
+  border-bottom: 4px solid black;
+  width: fit-content;
+  padding-bottom: 25px;
+  margin-top: 25px;
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .offcanvas-description-container{
+    border-bottom: 4px solid black;
+    width: fit-content;
+    padding-bottom:100px;
+    margin-top: 100px;
+  }
+}
+
+.offcanvas-description-header{
+  margin: 3px;
+  font-weight: bolder;
+}
+
+.offcanvas-description-container-tri{
+  width: fit-content;
+  margin-top: 15px;
+}
+
+.title{
+  font-weight: bolder;
+  font-size: 50px;
+  color: black;
+  text-shadow: 0.0625em 0.0625em 0.125em goldenrod;
+  margin-bottom: 3px;
+}
+
+.menubar-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.descriptions-container{
+  position: relative;
+  display: inline-block;
+}
+
+.descriptions-button{
+  font-weight: bold;
+  border: .1em solid black;
+  box-shadow: 0 0 0.625em grey;
+  cursor: pointer;
+  height: 3vw;
+  color: black;
+}
+
+.descriptions-dropdown{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 0.625em grey;
+  z-index: 1;
+  font-weight: bolder;
+  border: .05em solid black;
+  border-radius: .5em;
+}
+
+.descriptions-container:hover .descriptions-dropdown {
+  display: block;
+}
+
+.description{
+  border: 1px solid black;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.box-description{
+  border: 1px solid black;
+}
+
+.triangle-description{
+  border: 1px solid black;
+}
+
+.equal-drop-container{
+  position: relative;
+  display: inline-block;
+}
+
+.equal-button{
+ font-weight: bold;
+ border: .1em solid black;
+ box-shadow: 0 0 0.625em grey;
+ cursor: pointer;
+ color: black;
+}
+
+.equal-dropdown{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 0.625em grey;
+  padding: 1em 1em;
+  z-index: 1;
+  font-weight: bolder;
+  border: .05em solid black;
+  border-radius: .5em;
+}
+
+.equal-drop-container:hover .equal-dropdown {
+  display: block;
+}
+
+.box-drop-container{
+  position: relative;
+  display: inline-block;
+}
+
+.box-dropdown{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 0.625em grey;
+  padding: 1em 1em;
+  z-index: 1;
+  font-weight: bolder;
+  border: .05em solid black;
+  border-radius: .5em;
+}
+
+.box-drop-container:hover .box-dropdown {
+  display: block;
+}
+
+.box-button{
+  font-weight: bold;
+  border: .1em solid black;
+  box-shadow: 0 0 0.625em grey;
+  cursor: pointer;
+  color: black;
+}
+
+.triangle-drop-container{
+  position: relative;
+  display: inline-block;
+}
+
+.triangle-dropdown{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 0.625em grey;
+  padding: 1em 1em;
+  z-index: 1;
+  font-weight: bolder;
+  border: .05em solid black;
+  border-radius: .5em;
+}
+
+.triangle-drop-container:hover .triangle-dropdown {
+  display: block;
+}
+
+.triangle-button{
+  font-weight: bold;
+  border: .1em solid black;
+  box-shadow: 0 0 0.625em grey;
+  cursor: pointer;
+  color: black;
+}
+
+.stop-button{
+  font-weight: bold;
+  border: .1em solid black;
+  box-shadow: 0 0 0.625em grey;
+  cursor: pointer;
+  color: black;
+}
+
+.orb{
+  margin: 6vw;
+  width: 20vw;
+  height: 20vw;
+  background: orange;
+  border-radius: 100%;
+  border: 0px;
+  transition-duration: 30s;
+  font-weight: bolder;
+  box-shadow: black;
+  box-shadow: 0 0 10px grey;
+  font-size: 2vw;
+  color: black;
+}
+
+@keyframes equal_pulse_animation {
+  0% { transform: scale(1); }
+  10% { transform: scale(1.1); }
+  20% { transform: scale(1.2); }
+  30% { transform: scale(1.3); }
+  40% { transform: scale(1.4); }
+  50% { transform: scale(1.5); }
+  60% { transform: scale(1.4); }
+  70% { transform: scale(1.3); }
+  80% { transform: scale(1.2); }
+  90% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.equalPulse {
+  animation-name: equal_pulse_animation;
+  animation-duration: 8000ms;
+  transform-origin: center;
+  animation-iteration-count: 8;
+  animation-timing-function: linear;
+}
+
+.equal-orb-text::before{
+  content: '';
+  animation: equal_orb_text_change 8 linear 8000ms;
+}
+
+@keyframes equal_orb_text_change {
+  0% {content: 'Breathe in';}
+  40% {content: 'Breathe in';}
+  60% {content: 'Breathe out';}
+  100% { content: 'Breathe out'; }
+}
+
+@keyframes box_orb_text_change {
+  0% {content: 'Breathe in';}
+  50% {content: 'Hold';}
+  51% {content: 'Breathe out';}
+  90% { content: 'Hold'; }
+  100% { content: 'Hold'; }
+}
+
+.box-orb-text::before{
+  content: '';
+  animation: box_orb_text_change 4 linear 16000ms;
+}
+
+@keyframes tri_orb_text_change{
+  0% {content: 'Breathe in';}
+  65% {content: 'Breathe out';}
+  66% { content: 'Hold'; }
+  100% { content: 'Hold'; }
+}
+
+.tri-orb-text::before{
+  content: '';
+  animation: tri_orb_text_change infinite linear 12000ms;
+}
+
+@keyframes box_pulse_animation {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.5); }
+  50% { transform: scale(1.5); }
+  70% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+.boxPulse {
+  animation-name: box_pulse_animation;
+  animation-duration: 16000ms;
+  transform-origin: center;
+  animation-iteration-count: 4;
+  animation-timing-function: linear;
+}
+
+@keyframes triangle_pulse_animation {
+  0% { transform: scale(1); }
+  33% { transform: scale(1.5); }
+  66% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+.trianglePulse {
+  animation-name: triangle_pulse_animation;
+  animation-duration: 12000ms;
+  transform-origin: center;
+  animation-iteration-count: 5;
+  animation-timing-function: linear;
+}
+
+.email-submission-form{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
+  height: 5vh;
+  margin: 5px;
+}
+
+.email-input-field{
+  font-weight: bold;
+  box-shadow: 0 0 10px grey;
+  border-radius: 10%;
+}
+
+.email-submit-btn{
+  font-weight: bolder;
+  box-shadow: 0 0 10px grey;
+  border-radius: 10%;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.submission-bar-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 5vh;
+  margin: 5px;
+}
