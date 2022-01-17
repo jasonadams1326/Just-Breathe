@@ -20,8 +20,8 @@
 
 🚀 Installation and Setup
 ```
-$ git clone https://github.com/jasonadams1326/hr-rfe6-mvp.git
-$ cd hr-rfe6-mvp/
+$ git clone https://github.com/jasonadams1326/Just-Breathe.git
+$ cd Just-Breathe/
 $ npm install
 $ npm start (starts server with nodemon)
 $ open local host port 3000 to view app
