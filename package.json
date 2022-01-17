@@ -1,7 +1,7 @@
 {
-  "name": "MVP",
+  "name": "Just Breathe",
   "version": "1.0.0",
-  "description": "two day sprint to plan, create, and deploy a minimum viable product of a fullstack app",
+  "description": "breathing excercise web app",
   "main": "index.js",
   "scripts": {
     "build": "webpack",

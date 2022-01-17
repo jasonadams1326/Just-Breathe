@@ -7,3 +7,5 @@ CREATE TABLE emails (
   email VARCHAR(50) NOT NULL,
   PRIMARY KEY (id)
 );
+
+
