@@ -12,6 +12,8 @@
 * Breathing exercise web app
 * An easy to use, minimalist breathing app with multiple breathing exercise options
 
+![](justBreathe.gif)
+
 ### 🧪 Technologies
 
 * React
