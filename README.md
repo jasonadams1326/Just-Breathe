@@ -17,8 +17,7 @@
 ### 🧪 Technologies
 
 * React
-* Node
-* Express
+* CSS Animations
 
 🚀 Installation and Setup
 ```
