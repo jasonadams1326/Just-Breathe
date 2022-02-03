@@ -9,7 +9,7 @@
 
 ### General Info
 
-* An easy to use, minimalist breathing excercise web app with multiple breathing exercise options
+* An easy to use, minimalist breathing exercise web app with multiple breathing exercise options
 
 ![](justBreathe.gif)
 
