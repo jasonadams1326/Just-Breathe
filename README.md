@@ -24,7 +24,7 @@
 $ git clone https://github.com/jasonadams1326/Just-Breathe.git
 $ cd Just-Breathe/
 $ npm install
-$ npm start (starts server with nodemon)
+$ npm start
 $ open local host port 3000 to view app
 ```
 
