@@ -17,6 +17,9 @@
 
 * React
 * CSS Animations
+* Node
+* Express
+* AWS Ec2
 
 🚀 Installation and Setup
 ```
