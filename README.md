@@ -19,7 +19,7 @@
 * CSS Animations
 * Node
 * Express
-* AWS Ec2
+* AWS EC2
 
 🚀 Installation and Setup
 ```
