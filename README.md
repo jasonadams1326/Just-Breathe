@@ -21,9 +21,6 @@ $ npm start
 $ open local host port 3000 to view app
 ```
 
-### 🤝 Contributor
-
-- [Jason Adams](https://www.linkedin.com/in/jason-adams-b88086146/)
 
 
 
