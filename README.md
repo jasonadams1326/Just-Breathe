@@ -1,6 +1,6 @@
 # Just Breathe
 
-* An easy to use, minimalist breathing exercise web app with multiple exercise options
+An easy to use, minimalist breathing exercise web app with multiple exercise options
 
 ![](justBreathe.gif)
 
